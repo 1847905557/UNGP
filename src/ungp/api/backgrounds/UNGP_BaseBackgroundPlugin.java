@@ -177,6 +177,7 @@ public abstract class UNGP_BaseBackgroundPlugin implements UNGP_BackgroundPlugin
                         case SKILL:
                             String skillId = (String) bonus.params[0];
                             SkillSpecAPI skillSpec = Global.getSettings().getSkillSpec(skillId);
+                            if (skillSpec == null) break;
                             int level;
                             if (bonus.params[1] instanceof Integer) {
                                 level = (int) bonus.params[1];

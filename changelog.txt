@@ -1,3 +1,14 @@
+2.4.0 2025/9/6
+科技革命:
+    效果重置，现在提高装配点的效果根据选取规则的时间增强。
+    一开始只生效25%，后续4年内逐渐提升至100%。
+伏击艺术家：基础维持时间+2秒
+
+Technological Revolution:
+    Effect reset, now the OP bonus increases over time since the rule was selected.
+    Starts at 25% effectiveness, gradually increases to 100% over 4 years.
+Seer:+2s reveal duration
+
 2.3.0 2024/5/22 hotfix
 尝试修复疾速追杀的Bug。
 尝试修复必须前置Lunalib的Bug。

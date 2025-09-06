@@ -53,7 +53,7 @@ public class UNGP_BirthdayPresent extends UNGP_BaseRuleEffect implements UNGP_Ca
                     List<URule> allRules = getAllRulesCopy();
                     WeightedRandomPicker<URule> picker = new WeightedRandomPicker<>(Misc.getRandom(clock.getCycle() + clock.getMonth() + clock.getDay(), inGameData.getCurCycle()));
                     for (URule uRule : allRules) {
-                        if (!uRule.isBonus() || activatedRules.contains(uRule)) continue;
+                        if (!uRule.isPositive() || activatedRules.contains(uRule)) continue;
                         if (!uRule.isRollable()) continue;
                         picker.add(uRule, Math.abs(uRule.getCost()));
                     }

@@ -23,7 +23,7 @@ public class UNGP_Seer extends UNGP_BaseRuleEffect implements UNGP_CombatTag {
 
     @Override
     public float getValueByDifficulty(int index, UNGP_SpecialistSettings.Difficulty difficulty) {
-        return difficulty.getLinearValue(2f, 1f);
+        return difficulty.getLinearValue(4f, 1f);
     }
 
 

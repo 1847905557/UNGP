@@ -38,7 +38,7 @@ work_hard,好好干活!,你是一名资本家,陆战队与船员数量比率低�
 monotonous_teller,穷编剧的剧本,持续损失故事点,每 %s 天损失 %s 点故事点，直至其归零。,2,FALSE,,graphics/ungp/icons/ungp_rules/monotonous_teller.png,ungp.impl.rules.other.UNGP_MonotonousTeller,上层叙事的观众认为你的故事仍不够精彩，扣除了你 %s 点故事点...,,,,议长√
 inflation,通货膨胀,钱变得越来越不值钱,每月开始时，损失当前星币的 %s,1,FALSE,,graphics/ungp/icons/ungp_rules/inflation.png,ungp.impl.rules.other.UNGP_Inflation,这个资本操纵的世界蒸发了你 %s 星币,,,,议长√
 ,,,,,,,,,,,,,
-tech_revolution,科技革命,提高装配点数,玩家舰船装配点数 + %s ，舰队内非民用船合计部署点超过 %s 时逐渐减少，最多减少至 %s,-3,TRUE,TRUE,graphics/ungp/icons/ungp_rules/tech_revolution.png,ungp.impl.rules.character.UNGP_TechRevolution,,,,,影之光√
+tech_revolution,科技革命,提高装配点数,玩家舰船装配点数最高 + %s : 第一次选取规则时，仅生效 %s ，选取规则后 %s 年内逐渐完全生效(重新选取规则不会使进度重置)。,-3,TRUE,TRUE,graphics/ungp/icons/ungp_rules/tech_revolution.png,ungp.impl.rules.character.UNGP_TechRevolution,当前进度:,,,,影之光√
 hss_phoenix,HSS Phoenix,提高旗舰:攻势的性能,若玩家旗舰为攻势系列战舰，该舰船获得 %s 结构、装甲、幅能加成， %s 速度与机动加成及 %s 最大战备值加成。,-4,TRUE,TRUE,graphics/ungp/icons/ungp_rules/hss_phoenix.png,ungp.impl.rules.member.UNGP_HssPhoenix,对以下舰船生效:,,,,议长√
 tts_invicible,TTS Invicible,提高旗舰:典范的性能,若玩家旗舰为典范系列战舰，该舰船获得 %s 护盾展开、转向、维持加成， %s 伤害与射速加成及 %s 最大战备值加成。,-4,TRUE,TRUE,graphics/ungp/icons/ungp_rules/tts_invicible.png,ungp.impl.rules.member.UNGP_TtsInvicible,对以下舰船生效:,,,,议长√
 shield_specialization,护盾专精,提高护盾能力,"玩家舰船护盾抗性,护盾转向/展开速率提高 %s ,护盾维持降低 %s",-4,TRUE,TRUE,graphics/ungp/icons/ungp_rules/shield_specialization.png,ungp.impl.rules.member.UNGP_ShieldSpecialization,,,,,议长√
